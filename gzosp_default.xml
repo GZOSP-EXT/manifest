@@ -28,7 +28,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project> 
-  
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="ext" />  
   <project path="system/core" name="system_core" groups="pdk" remote="ext" />  
   
   <project path="vendor/gzosp" name="vendor_gzosp" remote="ext" />  
@@ -53,7 +53,6 @@
 
   <project path="art" name="art" groups="pdk" remote="gzosp" />
   <project path="bionic" name="bionic" remote="gzosp" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="gzosp" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="gzosp" />
