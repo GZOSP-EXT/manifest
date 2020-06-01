@@ -37,6 +37,7 @@
   <project path="device/tesla/sepolicy" name="device_tesla_sepolicy" remote="ext" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="ext" />
   <project path="frameworks/base" name="frameworks_base" remote="ext" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="ext" />  
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="ext" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="ext" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" groups="pdk-fs" remote="ext" />  
@@ -65,7 +66,6 @@
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" groups="pdk" remote="gzosp" />
