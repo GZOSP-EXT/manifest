@@ -88,6 +88,7 @@
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="gzosp" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="gzosp" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="gzosp" />
 
 
