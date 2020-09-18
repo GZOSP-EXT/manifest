@@ -11,6 +11,6 @@
            fetch="https://github.com/https://github.com/GZOSP-EXT/" />
 
   <!-- General -->
-  <project path="manifest" name="android_manifest" remote="staging" />
+  <project path="manifest" name="manifest" remote="test" />
 
 </manifest>
