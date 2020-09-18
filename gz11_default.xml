@@ -8,7 +8,7 @@
   <!-- GZ staging -->
   <remote  name="test"
            revision="11.0"
-           fetch="https://github.com/https://github.com/GZOSP-EXT/" />
+           fetch="https://github.com/GZOSP-EXT/" />
 
   <!-- General -->
   <project path="manifest" name="manifest" remote="test" />
