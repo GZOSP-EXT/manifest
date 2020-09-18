@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GZ staging -->
+  <remote  name="test"
+           revision="11.0"
+           fetch="https://github.com/https://github.com/GZOSP-EXT/" />
+
+  <!-- General -->
+  <project path="manifest" name="android_manifest" remote="staging" />
+
+</manifest>
